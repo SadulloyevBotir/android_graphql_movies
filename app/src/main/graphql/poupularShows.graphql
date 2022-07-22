@@ -6,6 +6,7 @@ query popularShows{
             id
             name
             vote_count
+            first_air_date
             backdrop_path
         }
     }
