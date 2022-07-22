@@ -1,0 +1,11 @@
+query popularShows{
+    popularShows {
+        ok
+        error
+        shows {
+            id
+            backdrop_path
+            status
+        }
+    }
+}
