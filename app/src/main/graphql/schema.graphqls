@@ -38,7 +38,7 @@ type Country {
 type Creator {
     credir_id: String
     gender: Int
-    id: Int!
+    id: Int
     name: String
     profile_path: String
 }

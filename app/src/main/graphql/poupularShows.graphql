@@ -4,8 +4,9 @@ query popularShows{
         error
         shows {
             id
+            name
+            vote_count
             backdrop_path
-            status
         }
     }
 }
